@@ -1,0 +1,92 @@
+﻿<ContentDialog
+    x:Class="LeafletsProj.View.ContentDialogs.SaveContentDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:LeafletsProj.View.ContentDialogs"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{StaticResource PagesBackground}"
+    CornerRadius="7"
+    mc:Ignorable="d">
+    <ContentDialog.Resources>
+        <SolidColorBrush x:Key="SystemControlPageBackgroundMediumAltMediumBrush" Color="Transparent" />
+        <SolidColorBrush x:Key="SaveContentDialogButtonSectionColor" Color="#F3F3F3" />
+        <SolidColorBrush x:Key="SaveContentDialogMainColor" Color="#872FFF" />
+        <Thickness x:Key="ContentDialogPadding">0,0,0,0</Thickness>
+    </ContentDialog.Resources>
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <TextBlock
+            x:Uid="ChooseFormat"
+            Margin="25,12,0,0"
+            FontFamily="Segoe UI"
+            FontSize="20"
+            Foreground="{StaticResource PagesIconForeground}" />
+
+        <!--  Save mode stack panel  -->
+        <StackPanel
+            Grid.Row="1"
+            Margin="25"
+            Spacing="5">
+
+            <CheckBox x:Name="PngModeCheckBox" Style="{StaticResource ModeCheckBoxStyle}">
+
+                <TextBlock Text="PNG" />
+            </CheckBox>
+
+            <CheckBox x:Name="JpegModeCheckBox" Style="{StaticResource ModeCheckBoxStyle}">
+
+                <TextBlock Text="JPEG" />
+            </CheckBox>
+        </StackPanel>
+
+        <!--  Result buttons  -->
+        <Grid Grid.Row="2" Background="{StaticResource SaveContentDialogButtonSectionColor}">
+
+            <Button
+                x:Name="CancelButton"
+                Width="130"
+                Height="30"
+                Margin="25,25,0,25"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                Background="{StaticResource PagesBackground}"
+                Click="CancelButton_Click"
+                CornerRadius="4"
+                Style="{StaticResource UnresponsiveButtonStyle}">
+
+                <TextBlock
+                    x:Uid="Cancel"
+                    FontFamily="Segoe UI"
+                    FontSize="14"
+                    Foreground="{StaticResource PagesForeground}" />
+            </Button>
+
+            <Button
+                x:Name="SaveButton"
+                Width="130"
+                Height="30"
+                Margin="0,25,25,25"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                Background="{StaticResource SaveContentDialogMainColor}"
+                Click="SaveButton_Click"
+                CornerRadius="4"
+                Style="{StaticResource UnresponsiveButtonStyle}">
+
+                <TextBlock
+                    x:Uid="Save"
+                    FontFamily="Segoe UI"
+                    FontSize="14"
+                    Foreground="{StaticResource PagesBackground}" />
+            </Button>
+        </Grid>
+    </Grid>
+</ContentDialog>

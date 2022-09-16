@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--  All pages  -->
+    <SolidColorBrush x:Key="PagesBackground" Color="White" />
+    <SolidColorBrush x:Key="PagesForeground" Color="Black" />
+    <SolidColorBrush
+        x:Key="PagesIconForeground"
+        Opacity="0.9"
+        Color="Black" />
+    <SolidColorBrush x:Key="SeparationRectangleFill" Color="#D8D8D8" />
+
+    <!--  Start page  -->
+    <SolidColorBrush x:Key="SettingsBackground" Color="White" />
+
+    <!--  Edit page  -->
+    <SolidColorBrush x:Key="EditMenuBackground" Color="#F6F7FB" />
+    <Color x:Key="ShadowColor">#000000</Color>
+</ResourceDictionary>

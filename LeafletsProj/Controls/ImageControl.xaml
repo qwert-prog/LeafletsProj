@@ -1,0 +1,138 @@
+﻿<UserControl
+    x:Class="LeafletsProj.Controls.ImageControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converts="using:LeafletsProj.Converts"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:LeafletsProj.Controls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="300"
+    d:DesignWidth="400"
+    RenderTransformOrigin="0.5 0.5"
+    Tapped="UserControl_Tapped"
+    Visibility="{x:Bind CurrentImage.IsVisible, Mode=OneWay}"
+    mc:Ignorable="d">
+
+    <UserControl.Resources>
+        <SolidColorBrush x:Key="DashBorderBrush" Color="Black" />
+        <SolidColorBrush x:Key="TransparentFillRectangle" Color="Transparent" />
+        <SolidColorBrush
+            x:Key="ControlsIconsBackground"
+            Opacity="0.8"
+            Color="Black" />
+        <SolidColorBrush x:Key="ControlsIconsForeground" Color="White" />
+        <SolidColorBrush x:Key="SecondDashBorderBrush" Color="White" />
+
+        <converts:HexStringToSolidColorBrushConverter x:Key="HexStringToSolidColorBrushConverter" />
+        <Style x:Key="ResizeControlStyle" TargetType="Rectangle">
+            <Setter Property="Height" Value="15" />
+            <Setter Property="Width" Value="15" />
+            <Setter Property="Margin" Value="-10" />
+            <Setter Property="Stroke" Value="Black" />
+            <Setter Property="StrokeThickness" Value="1" />
+            <Setter Property="Fill" Value="White" />
+        </Style>
+    </UserControl.Resources>
+
+    <UserControl.RenderTransform>
+        <RotateTransform x:Name="ControlRotateTransform" />
+    </UserControl.RenderTransform>
+
+    <Grid x:Name="RootGrid">
+
+        <BitmapIcon
+            x:Name="TargetImage"
+            Width="{x:Bind CurrentImage.Width, Mode=OneWay}"
+            Height="{x:Bind CurrentImage.Height, Mode=OneWay}"
+            Foreground="{x:Bind CurrentImage.Color, Mode=OneWay, Converter={StaticResource HexStringToSolidColorBrushConverter}}"
+            UriSource="{x:Bind CurrentImage.ImagePath, Mode=OneWay}" />
+
+        <Rectangle
+            Margin="-5"
+            Fill="{StaticResource TransparentFillRectangle}"
+            FocusVisualMargin="-5"
+            Stroke="{StaticResource SecondDashBorderBrush}"
+            StrokeThickness="1"
+            Visibility="{x:Bind IsDashVisible, Mode=OneWay}" />
+
+        <Rectangle
+            x:Name="DashRectangle"
+            Margin="-5"
+            Fill="{StaticResource TransparentFillRectangle}"
+            FocusVisualMargin="-5"
+            Stroke="{StaticResource DashBorderBrush}"
+            StrokeDashArray="0.0 4.0 0.0"
+            StrokeThickness="1"
+            Visibility="{x:Bind IsDashVisible, Mode=OneWay}" />
+
+        <Rectangle
+            x:Name="MovedRectangle"
+            Margin="-10"
+            Fill="{StaticResource TransparentFillRectangle}"
+            FocusVisualMargin="-5"
+            ManipulationDelta="UserControl_ManipulationDelta"
+            ManipulationMode="TranslateX,TranslateY"
+            PointerEntered="MovedRectangle_PointerEntered"
+            PointerExited="MovedRectangle_PointerExited" />
+
+        <!--  Элемент вращения  -->
+        <Grid
+            x:Name="RotateGrid"
+            Margin="-17"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Bottom"
+            d:Height="30"
+            d:Width="30"
+            ManipulationDelta="RotateEllipse_ManipulationDelta"
+            ManipulationMode="TranslateX,TranslateY"
+            Visibility="{x:Bind CurrentImage.IsFocused, Mode=OneWay}">
+
+            <Ellipse x:Name="RotateEllipse" Fill="{StaticResource ControlsIconsBackground}" />
+
+            <BitmapIcon
+                x:Name="RotateIcon"
+                Margin="3"
+                Foreground="{StaticResource ControlsIconsForeground}"
+                UriSource="{StaticResource RotateIcon}" />
+        </Grid>
+
+        <!--  Элемент закрытия  -->
+        <Grid
+            x:Name="CloseGrid"
+            Margin="-17"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            d:Height="30"
+            d:Width="30"
+            IsTapEnabled="True"
+            Tapped="CloseEllipse_Tapped"
+            Visibility="{x:Bind CurrentImage.IsFocused, Mode=OneWay}">
+
+            <Ellipse x:Name="CloseEllipse" Fill="{StaticResource ControlsIconsBackground}" />
+
+            <BitmapIcon
+                x:Name="CloseIcon"
+                Margin="3"
+                Foreground="{StaticResource ControlsIconsForeground}"
+                UriSource="{StaticResource DeleteIcon}" />
+        </Grid>
+
+        <Rectangle
+            x:Name="TopLeftPoint"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            ManipulationDelta="Point_ManipulationDelta"
+            ManipulationMode="TranslateX,TranslateY"
+            Style="{StaticResource ResizeControlStyle}"
+            Visibility="{x:Bind CurrentImage.IsFocused, Mode=OneWay}" />
+
+        <Rectangle
+            x:Name="BottomRightPoint"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Bottom"
+            ManipulationDelta="Point_ManipulationDelta"
+            ManipulationMode="TranslateX,TranslateY"
+            Style="{StaticResource ResizeControlStyle}"
+            Visibility="{x:Bind CurrentImage.IsFocused, Mode=OneWay}" />
+    </Grid>
+</UserControl>

@@ -1,0 +1,28 @@
+﻿<Application
+    x:Class="LeafletsProj.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LeafletsProj"
+    xmlns:services="using:LeafletsProj.Services">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+                <ResourceDictionary Source="/Resources/Dictionary/ImagesDictionary.xaml" />
+                <ResourceDictionary Source="/Resources/Dictionary/ColorsDictionary.xaml" />
+                <ResourceDictionary Source="/Resources/Dictionary/FontsDictionary.xaml" />
+                <ResourceDictionary Source="/Resources/Styles/UnresponsiveButtonStyle.xaml" />
+                <ResourceDictionary Source="/Resources/Styles/CardsListViewItemStyle.xaml" />
+                <ResourceDictionary Source="/Resources/Styles/FlyersGridViewItemStyle.xaml" />
+                <ResourceDictionary Source="/Resources/Styles/SettingSliderStyle.xaml" />
+                <ResourceDictionary Source="/Resources/Styles/SignsGridViewItemStyle.xaml" />
+                <ResourceDictionary Source="/Resources/Styles/AbstractsAndPaintsGridViewItemStyle.xaml" />
+                <ResourceDictionary Source="/Resources/Styles/CardListViewItemStyle.xaml" />
+                <ResourceDictionary Source="/Resources/Styles/SaveModeCheckBoxStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <services:ServiceLocator x:Key="Locator" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

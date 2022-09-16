@@ -1,0 +1,13 @@
+{
+  "test_product_expiration_time": 1,
+  "products": [
+    {
+      "inner_key": "1monthNoTrial",
+      "store_id": "9P34J1N0RFZG"
+    },
+    {
+      "inner_key": "1yearTrial",
+      "store_id": "9NLH7QCRXJH1"
+    }
+  ]
+}

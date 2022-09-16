@@ -1,0 +1,8 @@
+{
+  "main_privacy_domain": "https://privacy0.appfit.studio/api/v3/privacy/",
+  "reserve_privacy_domain": "https://privacy1.appfit.studio/api/v3/privacy/",
+  "company_id": 136,
+  "public_api_key": "f24dfbf8-bebb-450e-b233-4eb67e570235",
+  "gdpr_support": "none",
+  "auth_gdpr": false
+}
