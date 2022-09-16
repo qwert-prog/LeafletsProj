@@ -1,0 +1,38 @@
+﻿<UserControl
+    x:Class="LeafletsProj.Controls.FlyerControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:LeafletsProj.Controls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkitControls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    d:DesignHeight="300"
+    d:DesignWidth="400"
+    mc:Ignorable="d">
+
+    <Viewbox>
+
+        <Grid>
+
+            <!--  Canvas with image of flyer  -->
+            <toolkitControls:DropShadowPanel
+                BlurRadius="10"
+                ShadowOpacity="0.2"
+                Color="{StaticResource ShadowColor}">
+
+                <Canvas
+                    x:Name="FlyerCanvas"
+                    Width="{x:Bind CurrentFlyer.Width, Mode=OneWay}"
+                    Height="{x:Bind CurrentFlyer.Height, Mode=OneWay}"
+                    SizeChanged="FlyerCanvas_SizeChanged">
+
+                    <Image
+                        Width="{x:Bind CurrentFlyer.Width, Mode=OneWay}"
+                        Height="{x:Bind CurrentFlyer.Height, Mode=OneWay}"
+                        Source="{x:Bind CurrentFlyer.FrontImagePath}"
+                        Stretch="Fill" />
+                </Canvas>
+            </toolkitControls:DropShadowPanel>
+        </Grid>
+    </Viewbox>
+</UserControl>

@@ -1,0 +1,243 @@
+﻿<Page
+    x:Class="LeafletsProj.View.StartPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:core="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
+    xmlns:local="using:LeafletsProj.View"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:premiumControl="using:Advertisement.Controls"
+    xmlns:services="using:LeafletsProj.Services"
+    xmlns:toolkitControls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    DataContext="{Binding StartPageViewModel, Source={StaticResource Locator}}"
+    mc:Ignorable="d">
+    <Page.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+
+                <ResourceDictionary>
+
+                    <CollectionViewSource
+                        x:Key="cvs"
+                        IsSourceGrouped="True"
+                        Source="{x:Bind services:ServiceLocator.AssetsService.FlyersList, Mode=OneWay}" />
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid Background="{StaticResource PagesBackground}">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <StackPanel
+            Margin="0,15,10,0"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Orientation="Horizontal"
+            Spacing="5">
+        </StackPanel>
+
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Hidden">
+
+            <StackPanel
+                Grid.Row="1"
+                Margin="0,20,0,0"
+                Orientation="Vertical"
+                Spacing="30">
+
+                <!--  Business cards list  -->
+                <Grid>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="auto" />
+                    </Grid.RowDefinitions>
+
+                    <!--  Header  -->
+                    <TextBlock
+                        x:Uid="BusinessCardsTitle"
+                        Margin="15,0,0,0"
+                        FontFamily="Segoe UI"
+                        FontSize="20"
+                        FontWeight="Bold"
+                        Foreground="{StaticResource PagesForeground}" />
+
+                    <!--  Separation  -->
+                    <Rectangle
+                        Grid.Row="1"
+                        Height="2"
+                        Margin="15"
+                        Fill="{StaticResource SeparationRectangleFill}" />
+
+                    <!--  List  -->
+                    <ListView
+                        Grid.Row="2"
+                        ItemContainerStyle="{StaticResource CardsListViewItemStyle}"
+                        ItemsSource="{x:Bind services:ServiceLocator.AssetsService.CardsList, Mode=OneWay}"
+                        ScrollViewer.HorizontalScrollMode="Enabled"
+                        ScrollViewer.IsHorizontalRailEnabled="True"
+                        SelectedItem="{Binding SelectedCard, Mode=TwoWay}">
+                        <interactivity:Interaction.Behaviors>
+
+                            <core:EventTriggerBehavior EventName="SelectionChanged">
+                                <core:InvokeCommandAction Command="{Binding OpenSelectedItemCommand}" />
+                            </core:EventTriggerBehavior>
+                        </interactivity:Interaction.Behaviors>
+
+                        <ListView.ItemsPanel>
+
+                            <ItemsPanelTemplate>
+
+                                <VirtualizingStackPanel Orientation="Horizontal" />
+                            </ItemsPanelTemplate>
+                        </ListView.ItemsPanel>
+
+                        <ListView.ItemTemplate>
+
+                            <DataTemplate>
+
+                                <toolkitControls:DropShadowPanel
+                                    BlurRadius="8"
+                                    ShadowOpacity="0.2"
+                                    Color="{StaticResource ShadowColor}">
+
+                                    <Grid
+                                        x:Name="MainGrid"
+                                        Width="211"
+                                        Height="120"
+                                        CornerRadius="3"
+                                        IsTapEnabled="False">
+
+                                        <Image Source="{Binding PreviewImagePath}" />
+
+                                        <Image
+                                            Width="20"
+                                            Height="20"
+                                            Margin="0,0,5,5"
+                                            HorizontalAlignment="Right"
+                                            VerticalAlignment="Bottom"
+                                            Source="{StaticResource LockPaperIcon}"
+                                            Visibility="{Binding IsPremium}" />
+                                    </Grid>
+                                </toolkitControls:DropShadowPanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </Grid>
+
+                <!--  Flyers list  -->
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="auto" />
+                    </Grid.RowDefinitions>
+
+                    <!--  Header  -->
+                    <TextBlock
+                        x:Uid="FlyersTitle"
+                        Margin="15,0,0,0"
+                        FontFamily="Segoe UI"
+                        FontSize="20"
+                        FontWeight="Bold"
+                        Foreground="{StaticResource PagesForeground}" />
+
+                    <!--  Separation  -->
+                    <Rectangle
+                        Grid.Row="1"
+                        Height="2"
+                        Margin="15"
+                        Fill="{StaticResource SeparationRectangleFill}" />
+
+                    <!--  List  -->
+                    <GridView
+                        Grid.Row="2"
+                        ItemContainerStyle="{StaticResource FlyersGridViewItemStyle}"
+                        ItemsSource="{Binding Source={StaticResource cvs}, Mode=OneWay}"
+                        SelectedItem="{Binding SelectedCard, Mode=TwoWay}">
+                        <interactivity:Interaction.Behaviors>
+
+                            <core:EventTriggerBehavior EventName="SelectionChanged">
+                                <core:InvokeCommandAction Command="{Binding OpenSelectedItemCommand}" />
+                            </core:EventTriggerBehavior>
+                        </interactivity:Interaction.Behaviors>
+
+                        <GridView.ItemTemplate>
+
+                            <DataTemplate>
+
+                                <toolkitControls:DropShadowPanel
+                                    BlurRadius="8"
+                                    OffsetX="1"
+                                    OffsetY="1"
+                                    ShadowOpacity="0.2"
+                                    Color="{StaticResource ShadowColor}">
+
+                                    <Grid
+                                        x:Name="MainGrid"
+                                        Width="224"
+                                        Height="304"
+                                        CornerRadius="3">
+
+                                        <Image Source="{Binding PreviewImagePath}" />
+
+                                        <Image
+                                            Width="20"
+                                            Height="20"
+                                            Margin="0,0,10,5"
+                                            HorizontalAlignment="Right"
+                                            VerticalAlignment="Bottom"
+                                            Source="{StaticResource LockPaperIcon}"
+                                            Visibility="{Binding IsPremium}" />
+                                    </Grid>
+                                </toolkitControls:DropShadowPanel>
+                            </DataTemplate>
+                        </GridView.ItemTemplate>
+
+                        <GridView.GroupStyle>
+
+                            <GroupStyle>
+
+                                <GroupStyle.HeaderContainerStyle>
+
+                                    <Style TargetType="GridViewHeaderItem">
+                                        <Setter Property="MinHeight" Value="8" />
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate TargetType="ContentControl">
+                                                    <ContentPresenter Content="{Binding}" />
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </GroupStyle.HeaderContainerStyle>
+
+                                <GroupStyle.HeaderTemplate>
+
+                                    <DataTemplate>
+
+                                        <TextBlock
+                                            Margin="15,10,0,15"
+                                            FontFamily="Segoe UI"
+                                            FontSize="18"
+                                            FontWeight="SemiBold"
+                                            Foreground="{StaticResource PagesForeground}"
+                                            Text="{Binding Key}" />
+                                    </DataTemplate>
+                                </GroupStyle.HeaderTemplate>
+                            </GroupStyle>
+                        </GridView.GroupStyle>
+                    </GridView>
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <x:String x:Key="SettingsButtonIcon">ms-appx://LeafletsProj/Assets/Icons/SettingsButtonIcon.png</x:String>
+    <x:String x:Key="ShareIcon">ms-appx://LeafletsProj/Assets/Icons/Share.png</x:String>
+    <x:String x:Key="RotateIcon">ms-appx://LeafletsProj/Assets/Icons/ic_rotate.png</x:String>
+    <x:String x:Key="DeleteIcon">ms-appx://LeafletsProj/Assets/Icons/ic_trash.png</x:String>
+    <x:String x:Key="AddIcon">ms-appx://LeafletsProj/Assets/Icons/AddIcon.png</x:String>
+    <BitmapImage x:Key="AppIcon" UriSource="ms-appx://LeafletsProj/Assets/Icons/icon.png" />
+    <BitmapImage x:Key="LockPaperIcon" UriSource="/Advertisement/Assets/PremiumUI/LockPaperIcon.png" />
+    <BitmapImage x:Key="LockDecorIcon" UriSource="/Advertisement/Assets/PremiumUI/LockDecorIcon.png" />
+</ResourceDictionary>

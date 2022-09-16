@@ -1,0 +1,1996 @@
+﻿[
+
+  {
+    "FrontImagePath": "ms-appx:///Assets/Flyers/Front/001.png",
+    "PreviewImagePath": "ms-appx:///Assets/Flyers/Preview/001.png",
+    "GroupName": "CulturalEvent",
+    "IsPremium": false,
+    "FrontTextTemplates": [
+
+      {
+        "Left": 22,
+        "Top": 99,
+        "Width": 437,
+        "Height": 60,
+        "Color": "0xffffff",
+        "FontName": "Geometric706-BlackCondensed",
+        "FontSize": 62,
+        "FontWeight": 400,
+        "Value": "MUSIC FESTIVAL"
+      },
+
+      {
+        "Left": 60,
+        "Top": 215,
+        "Width": 256,
+        "Height": 72,
+        "Color": "0xffffff",
+        "FontName": "Jost-Bold",
+        "TextAlignment": "Center",
+        "FontSize": 33,
+        "FontWeight": 500,
+
+        "Value": "April 25 - 29, 2022\n 9:30"
+      },
+
+      {
+        "Left": 115,
+        "Top": 383,
+        "Width": 355,
+        "Height": 34,
+        "Color": "0xffffff",
+        "FontName": "Jost-Medium",
+        "FontSize": 18,
+        "FontWeight": 500,
+
+        "Value": "Featuring performances by:"
+      },
+
+      {
+        "Left": 48,
+        "Top": 425,
+        "Width": 347,
+        "Height": 20,
+        "Color": "0xffffff",
+        "FontName": "Jost-Bold",
+        "FontSize": 11,
+        "FontWeight": 700,
+
+        "Value": "DOLOR SIT * AMET CONSECTETUR * SED DIAM * WISI ENIIM * "
+      },
+
+      {
+        "Left": 48,
+        "Top": 453,
+        "Width": 347,
+        "Height": 20,
+        "Color": "0xffffff",
+        "FontName": "Jost-Bold",
+        "FontSize": 11,
+        "FontWeight": 700,
+
+        "Value": "DOLOR SIT * AMET CONSECTETUR * SED DIAM * WISI ENIIM * "
+      },
+      {
+        "Left": 48,
+        "Top": 481,
+        "Width": 347,
+        "Height": 20,
+        "Color": "0xffffff",
+        "FontName": "Jost-Bold",
+        "FontSize": 11,
+        "FontWeight": 700,
+
+        "Value": "DOLOR SIT * AMET CONSECTETUR * SED DIAM * WISI ENIIM * "
+      },
+
+      {
+        "Left": 131,
+        "Top": 544,
+        "Width": 355,
+        "Height": 34,
+        "Color": "0xffffff",
+        "FontName": "Jost",
+        "FontSize": 14,
+        "FontWeight": 400,
+
+        "Value": "Ticket information available at"
+      },
+
+      {
+        "Left": 142,
+        "Top": 565,
+        "Width": 153,
+        "Height": 34,
+        "Color": "0xffffff",
+        "FontName": "Jost-Bold",
+        "FontSize": 14,
+        "FontWeight": 700,
+
+        "Value": "www.musicfestival.com "
+      }
+    ]
+  },
+
+  {
+    "FrontImagePath": "ms-appx:///Assets/Flyers/Front/002.png",
+    "PreviewImagePath": "ms-appx:///Assets/Flyers/Preview/002.png",
+    "GroupName": "CulturalEvent",
+    "IsPremium": false,
+    "FrontTextTemplates": [
+
+      {
+        "Left": 115.5,
+        "Top": 5,
+        "Width": 205,
+        "Height": 76,
+        "Color": "0x000000",
+        "FontName": "Jost-Bold",
+        "FontSize": 105,
+        "FontWeight": 700,
+        "Value": "ART"
+      },
+
+      {
+        "Left": 116,
+        "Top": 133,
+        "Width": 204,
+        "Height": 68,
+        "Color": "0xffffff",
+        "FontName": "Jost-Medium",
+        "FontSize": 47,
+        "FontWeight": 500,
+
+        "Value": "FESTIVAL"
+      },
+
+      {
+        "Left": 141,
+        "Top": 218,
+        "Width": 224,
+        "Height": 46,
+        "Color": "0x000000",
+        "FontName": "Jost-Bold",
+        "FontSize": 30,
+        "FontWeight": 700,
+
+        "Value": "JUNY 2022"
+      },
+
+      {
+        "Left": 29,
+        "Top": 281,
+        "Width": 111,
+        "Height": 29,
+        "Color": "0x000000",
+        "FontName": "Jost-SemiBold",
+        "FontSize": 20,
+        "FontWeight": 600,
+        "Value": "FEATURING"
+      },
+
+      {
+        "Left": 29.5,
+        "Top": 316,
+        "Width": 231,
+        "Height": 23,
+        "Color": "0x000000",
+        "FontName": "Jost",
+        "FontSize": 17,
+        "FontWeight": 400,
+        "Value": "INK ART SOUL SEA"
+      },
+
+      {
+        "Left": 29.5,
+        "Top": 346,
+        "Width": 231,
+        "Height": 23,
+        "Color": "0x000000",
+        "FontName": "Jost",
+        "FontSize": 17,
+        "FontWeight": 400,
+        "Value": "INK ART SUN AND FUN"
+      },
+
+      {
+        "Left": 30.5,
+        "Top": 376,
+        "Width": 231,
+        "Height": 23,
+        "Color": "0x000000",
+        "FontName": "Jost",
+        "FontSize": 17,
+        "FontWeight": 400,
+        "Value": "ENJOY THE SEASON OF ART"
+      },
+
+      {
+        "Left": 29.5,
+        "Top": 406,
+        "Width": 231,
+        "Height": 23,
+        "Color": "0x000000",
+        "FontName": "Jost",
+        "FontSize": 17,
+        "FontWeight": 400,
+        "Value": "AND SUN"
+      },
+
+      {
+        "Left": 29.5,
+        "Top": 450,
+        "Width": 290,
+        "Height": 23,
+        "Color": "0x000000",
+        "FontName": "Jost-SemiBold",
+        "FontSize": 16,
+        "FontWeight": 600,
+        "Value": "194 Timeclock Road, New York, 29384 "
+      },
+
+      {
+        "Left": 29.5,
+        "Top": 480,
+        "Width": 290,
+        "Height": 23,
+        "Color": "0x000000",
+        "FontName": "Jost-SemiBold",
+        "FontSize": 16,
+        "FontWeight": 600,
+        "Value": "+(44) 5698 846512"
+      },
+
+      {
+        "Left": 29.5,
+        "Top": 510,
+        "Width": 290,
+        "Height": 23,
+        "Color": "0x000000",
+        "FontName": "Jost-SemiBold",
+        "FontSize": 16,
+        "FontWeight": 600,
+        "Value": "www.mysite.com"
+      },
+
+      {
+        "Left": 14,
+        "Top": 559,
+        "Width": 418,
+        "Height": 46,
+        "Color": "0x000000",
+        "FontName": "Jost",
+        "FontSize": 11,
+        "FontWeight": 400,
+        "Value": "The exhibition is equipped with double-layer space, watercolor art, watercolor time and \nthe two exhibition area. After the event, the on-site quests were invited to the Alex&Finky\ninteractive space full of fun, and personally experienced the 3D interactive photo."
+      }
+    ]
+  },
+
+  {
+    "FrontImagePath": "ms-appx:///Assets/Flyers/Front/003.png",
+    "PreviewImagePath": "ms-appx:///Assets/Flyers/Preview/003.png",
+    "GroupName": "CulturalEvent",
+    "IsPremium": true,
+    "FrontTextTemplates": [
+
+      {
+        "Left": 27,
+        "Top": 24,
+        "Width": 95,
+        "Height": 25,
+        "Color": "0x000000",
+        "FontName": "CormorantInfant-Bold",
+        "FontSize": 21,
+        "FontWeight": 700,
+        "Value": "TUESDAY"
+      },
+
+      {
+        "Left": 28,
+        "Top": 43,
+        "Width": 65,
+        "Height": 91,
+        "Color": "0x000000",
+        "FontName": "CormorantInfant-Bold",
+        "FontSize": 75,
+        "FontWeight": 700,
+
+        "Value": "19"
+      },
+
+      {
+        "Left": 91,
+        "Top": 85,
+        "Width": 42,
+        "Height": 29,
+        "Color": "0x000000",
+        "FontName": "CormorantInfant-Bold",
+        "FontSize": 30,
+        "FontWeight": 700,
+
+        "Value": "th"
+      },
+
+      {
+        "Left": 28,
+        "Top": 127,
+        "Width": 94,
+        "Height": 20,
+        "Color": "0x000000",
+        "FontName": "CormorantInfant-Bold",
+        "FontSize": 33,
+        "FontWeight": 700,
+
+        "Value": "APRIL"
+      },
+
+      {
+        "Left": 32,
+        "Top": 319,
+        "Width": 322,
+        "Height": 25,
+        "Color": "0x000000",
+        "FontName": "CormorantGaramond-Bold",
+        "FontSize": 22,
+        "FontWeight": 700,
+
+        "Value": "THE NY SCHOOL OF ART "
+      },
+
+      {
+        "Left": 26,
+        "Top": 355,
+        "Width": 334,
+        "Height": 61,
+        "Color": "0x000000",
+        "FontName": "CormorantInfant-Bold",
+        "FontSize": 73,
+        "FontWeight": 700,
+
+        "Value": "FASHION"
+      },
+
+      {
+        "Left": 26,
+        "Top": 416,
+        "Width": 255,
+        "Height": 62,
+        "Color": "0x000000",
+        "FontName": "CormorantGaramond-BoldItalic",
+        "FontSize": 70,
+        "FontWeight": 700,
+
+        "Value": "SHOW"
+      },
+
+      {
+        "Left": 32,
+        "Top": 482,
+        "Width": 85,
+        "Height": 56,
+        "Color": "0x000000",
+        "FontName": "CormorantInfant-Bold",
+        "FontSize": 46,
+        "FontWeight": 700,
+
+        "Value": "2022"
+      },
+
+      {
+        "Left": 62,
+        "Top": 568,
+        "Width": 312,
+        "Height": 18,
+        "Color": "0x000000",
+        "FontName": "CormorantInfant-Bold",
+        "FontSize": 16,
+        "FontWeight": 700,
+
+        "Value": "SHOWS AT 7PM AND 9PM, CENTRAL HALL"
+      },
+
+      {
+        "Left": 146,
+        "Top": 590,
+        "Width": 204,
+        "Height": 40,
+        "Color": "0x000000",
+        "FontName": "CormorantInfant-Bold",
+        "FontSize": 16,
+        "FontWeight": 700,
+
+        "Value": "www.fashionshow.com"
+      },
+
+    ]
+  },
+
+  {
+    "FrontImagePath": "ms-appx:///Assets/Flyers/Front/004.png",
+    "PreviewImagePath": "ms-appx:///Assets/Flyers/Preview/004.png",
+    "GroupName": "CulturalEvent",
+    "IsPremium": true,
+    "FrontTextTemplates": [
+
+      {
+        "Left": 165.5,
+        "Top": 37,
+        "Width": 106,
+        "Height": 34,
+        "Color": "0xFFFDEC",
+        "FontName": "Oswald-Medium",
+        "FontSize": 23,
+        "FontWeight": 500,
+        "Value": "14th Annual"
+      },
+
+      {
+        "Left": 80.5,
+        "Top": 74,
+        "Width": 309,
+        "Height": 120,
+        "Color": "0xFFFDEC",
+        "FontName": "Oswald-Bold",
+
+        "FontSize": 55,
+        "FontWeight": 700,
+
+        "Value": "OPEN MIC &"
+      },
+
+      {
+        "Left": 53.5,
+        "Top": 140,
+        "Width": 309,
+        "Height": 120,
+        "Color": "0xFFFDEC",
+        "FontName": "Oswald-Bold",
+        "TextAlignment": "Center",
+
+        "FontSize": 55,
+        "FontWeight": 700,
+
+        "Value": "POETRY SLAM"
+      },
+
+      {
+        "Left": 46.5,
+        "Top": 233,
+        "Width": 292,
+        "Height": 43,
+        "Color": "0x02002C",
+        "FontName": "Oswald-Bold",
+        "FontSize": 31,
+        "FontWeight": 700,
+
+        "Value": "TUESDAY, APRIL 19TH"
+      },
+
+      {
+        "Left": 46.5,
+        "Top": 279,
+        "Width": 186,
+        "Height": 34,
+        "Color": "0x02002C",
+        "FontName": "Oswald-Bold",
+        "FontSize": 26,
+        "FontWeight": 700,
+
+        "Value": "7:00 - 9:00 PM"
+      },
+
+      {
+        "Left": 47,
+        "Top": 335,
+        "Width": 194,
+        "Height": 80,
+        "Color": "0x02002C",
+        "FontName": "Oswald",
+        "FontSize": 13,
+        "FontWeight": 400,
+
+        "Value": "There will be music and prizes. The\nPoetry Slam will have two rounds, so\nbring at least two original poems if you\nwant to participate in the contest"
+      },
+
+      {
+        "Left": 47,
+        "Top": 423,
+        "Width": 65,
+        "Height": 25,
+        "Color": "0xFFFDEC",
+        "FontName": "Oswald",
+        "FontSize": 17,
+        "FontWeight": 400,
+
+        "Value": "OPEN MIC"
+      },
+
+      {
+        "Left": 47,
+        "Top": 443,
+        "Width": 98,
+        "Height": 35,
+        "Color": "0xFFFDEC",
+        "FontName": "Oswald-Bold",
+        "FontSize": 28,
+        "FontWeight": 700,
+
+        "Value": "7:00 PM"
+      },
+
+      {
+        "Left": 169,
+        "Top": 423,
+        "Width": 111,
+        "Height": 25,
+        "Color": "0xFFFDEC",
+        "FontName": "Oswald",
+        "FontSize": 17,
+        "FontWeight": 400,
+
+        "Value": "POETRY SLAM"
+      },
+
+      {
+        "Left": 169,
+        "Top": 443,
+        "Width": 98,
+        "Height": 35,
+        "Color": "0xFFFDEC",
+        "FontName": "Oswald-Bold",
+        "FontSize": 28,
+        "FontWeight": 700,
+
+        "Value": "8:00 PM"
+      },
+
+      {
+        "Left": 47,
+        "Top": 509,
+        "Width": 248,
+        "Height": 21,
+        "Color": "0x02002C",
+        "FontName": "Oswald",
+        "FontSize": 11,
+        "FontWeight": 400,
+
+        "Value": "Sponsored by the Department of Languages and Literature."
+      },
+
+      {
+        "Left": 47,
+        "Top": 530,
+        "Width": 218,
+        "Height": 16,
+        "Color": "0x02002C",
+        "FontName": "Oswald",
+        "FontSize": 11,
+        "FontWeight": 400,
+
+        "Value": "This event is free and open to the public. "
+      },
+
+      {
+        "Left": 130,
+        "Top": 576,
+        "Width": 218,
+        "Height": 30,
+        "Color": "0x02002C",
+        "FontName": "Oswald",
+        "TextAlignment": "Center",
+        "FontSize": 10,
+        "FontWeight": 400,
+
+        "Value": "For more information, contact Nelly Bruklin at\n +(44) 5698 846512 or nellybr@ed.edu "
+      }
+
+    ]
+  },
+
+  {
+    "FrontImagePath": "ms-appx:///Assets/Flyers/Front/005.png",
+    "PreviewImagePath": "ms-appx:///Assets/Flyers/Preview/005.png",
+    "GroupName": "Opening",
+    "IsPremium": false,
+    "FrontTextTemplates": [
+
+      {
+        "Left": 140,
+        "Top": 105,
+        "Width": 250,
+        "Height": 108,
+        "Color": "0xFFFFFF",
+        "FontName": "DancingScript",
+        "FontSize": 70,
+        "FontWeight": 400,
+        "Value": "Grand"
+      },
+
+      {
+        "Left": 120,
+        "Top": 168,
+        "Width": 250,
+        "Height": 108,
+        "Color": "0xFFFFFF",
+        "FontName": "DancingScript",
+        "TextAlignment": "Center",
+        "FontSize": 70,
+        "FontWeight": 400,
+        "Value": "opening"
+      },
+
+      {
+        "Left": 299,
+        "Top": 300,
+        "Width": 92,
+        "Height": 24,
+        "Color": "0xffffff",
+        "FontName": "Montserrat-ExtraBold",
+        "FontSize": 20,
+        "Angle": 10,
+        "FontWeight": 800,
+
+        "Value": "20% OFF"
+      },
+
+      {
+        "Left": 94,
+        "Top": 375,
+        "Width": 230,
+        "Height": 44,
+        "Color": "0xffffff",
+        "FontName": "Montserrat-Bold",
+        "FontSize": 32,
+        "FontWeight": 700,
+
+        "Value": "MAY 13th 2022"
+      },
+
+      {
+        "Left": 165,
+        "Top": 455,
+        "Width": 91,
+        "Height": 20,
+        "Color": "0x000000",
+        "FontName": "Montserrat-Medium",
+        "FontSize": 16,
+        "FontWeight": 500,
+
+        "Value": "Open hour:"
+      },
+      {
+        "Left": 82,
+        "Top": 484,
+        "Width": 325,
+        "Height": 19,
+        "Color": "0x000000",
+        "FontName": "Montserrat-SemiBold",
+        "FontSize": 18,
+        "FontWeight": 600,
+
+        "Value": "MON - SAT 10:00AM - 5:30PM"
+      },
+
+      {
+        "Left": 172,
+        "Top": 534,
+        "Width": 89,
+        "Height": 18,
+        "Color": "0x000000",
+        "FontName": "Montserrat-Medium",
+        "FontSize": 14,
+        "FontWeight": 500,
+
+        "Value": "Shop 3/375"
+      },
+
+      {
+        "Left": 140,
+        "Top": 561,
+        "Width": 164,
+        "Height": 17,
+        "Color": "0x000000",
+        "FontName": "Montserrat-Medium",
+        "FontSize": 14,
+        "FontWeight": 500,
+
+        "Value": "New South Head Rd"
+      },
+
+      {
+        "Left": 174,
+        "Top": 587,
+        "Width": 164,
+        "Height": 17,
+        "Color": "0x000000",
+        "FontName": "Montserrat-Medium",
+        "FontSize": 14,
+        "FontWeight": 500,
+
+        "Value": "NSW 2028"
+      }
+
+    ]
+  },
+
+  {
+    "FrontImagePath": "ms-appx:///Assets/Flyers/Front/006.png",
+    "PreviewImagePath": "ms-appx:///Assets/Flyers/Preview/006.png",
+    "GroupName": "Opening",
+    "IsPremium": false,
+    "FrontTextTemplates": [
+
+      {
+        "Left": 98,
+        "Top": 23,
+        "Width": 295,
+        "Height": 28,
+        "Color": "0xFFFFFF",
+        "FontName": "CormorantGaramond-SemiBold",
+        "FontSize": 18,
+        "FontWeight": 600,
+        "Value": "WE’RE HAPPY TO ANNOUNCE "
+      },
+
+      {
+        "Left": 80,
+        "Top": 262,
+        "Width": 295,
+        "Height": 111,
+        "Color": "0xFFFFFF",
+        "FontName": "CormorantGaramond-Bold",
+        "TextAlignment": "Center",
+        "FontSize": 48,
+        "FontWeight": 700,
+        "Value": "THE GRAND\n OPENING"
+      },
+
+      {
+        "Left": 126,
+        "Top": 421,
+        "Width": 226,
+        "Height": 28,
+        "Color": "0xFFFFFF",
+        "FontName": "Basil-Regular",
+        "FontSize": 25,
+        "FontWeight": 400,
+        "Value": "Doors open 7am"
+      },
+
+      {
+        "Left": 143,
+        "Top": 507,
+        "Width": 240,
+        "Height": 28,
+        "Color": "0xFFFFFF",
+        "FontName": "Basil-Regular",
+        "FontSize": 15,
+        "FontWeight": 400,
+        "Value": "45 Woodland Terrace "
+      },
+
+      {
+        "Left": 150,
+        "Top": 536,
+        "Width": 240,
+        "Height": 21,
+        "Color": "0xFFFFFF",
+        "FontName": "Basil-Regular",
+        "FontSize": 15,
+        "FontWeight": 400,
+        "Value": "New York, NY 10011"
+      },
+
+      {
+        "Left": 155,
+        "Top": 583,
+        "Width": 240,
+        "Height": 21,
+        "Color": "0xFFFFFF",
+        "FontName": "Basil-Regular",
+        "FontSize": 12,
+        "FontWeight": 400,
+        "Value": "www.royalcinema.com"
+      }
+    ]
+  },
+
+  {
+    "FrontImagePath": "ms-appx:///Assets/Flyers/Front/007.png",
+    "PreviewImagePath": "ms-appx:///Assets/Flyers/Preview/007.png",
+    "GroupName": "Opening",
+    "IsPremium": true,
+    "FrontTextTemplates": [
+
+      {
+        "Left": 62.5,
+        "Top": 110,
+        "Width": 406,
+        "Height": 109,
+        "Color": "0x000000",
+        "FontName": "BernardoModaContrast",
+        "TextAlignment": "Center",
+
+        "FontSize": 36,
+        "FontWeight": 400,
+        "Value": "WE ARE OPEN\n NOW!"
+      },
+
+      {
+        "Left": 109,
+        "Top": 257,
+        "Width": 309,
+        "Height": 51,
+        "Color": "0x000000",
+        "FontName": "Raleway-Regular",
+        "TextAlignment": "Center",
+
+        "FontSize": 18,
+        "FontWeight": 400,
+
+        "Value": "The newest models are now\n avaliable in store!"
+      },
+
+      {
+        "Left": 114,
+        "Top": 368,
+        "Width": 309,
+        "Height": 33,
+        "Color": "0x000000",
+        "FontName": "Raleway-SemiBold",
+        "FontSize": 20,
+        "FontWeight": 600,
+        "Value": "405 Main Street, London"
+      },
+
+      {
+        "Left": 164,
+        "Top": 453,
+        "Width": 309,
+        "Height": 24,
+        "Color": "0x000000",
+        "FontName": "Raleway-SemiBold",
+        "FontSize": 18,
+        "FontWeight": 600,
+        "Value": "OUR SOCIALS"
+      },
+
+      {
+        "Left": 120,
+        "Top": 491,
+        "Width": 406,
+        "Height": 24,
+        "Color": "0x000000",
+        "FontName": "Raleway-SemiBold",
+        "FontSize": 14,
+        "FontWeight": 600,
+        "Value": "Instagram:"
+      },
+
+      {
+        "Left": 192,
+        "Top": 491,
+        "Width": 137,
+        "Height": 24,
+        "Color": "0x000000",
+        "FontName": "Raleway",
+        "FontSize": 14,
+        "FontWeight": 400,
+        "Value": " passionforfashion"
+      },
+
+      {
+        "Left": 122,
+        "Top": 517,
+        "Width": 406,
+        "Height": 24,
+        "Color": "0x000000",
+        "FontName": "Raleway-SemiBold",
+        "FontSize": 14,
+        "FontWeight": 600,
+        "Value": "Website: "
+      },
+
+      {
+        "Left": 186,
+        "Top": 517,
+        "Width": 154,
+        "Height": 24,
+        "Color": "0x000000",
+        "FontName": "Raleway",
+        "FontSize": 14,
+        "FontWeight": 400,
+        "Value": "www.passionff.com"
+      }
+
+    ]
+  },
+
+  {
+    "FrontImagePath": "ms-appx:///Assets/Flyers/Front/008.png",
+    "PreviewImagePath": "ms-appx:///Assets/Flyers/Preview/008.png",
+    "GroupName": "Opening",
+    "IsPremium": true,
+    "FrontTextTemplates": [
+
+      {
+        "Left": 118,
+        "Top": 85,
+        "Width": 345,
+        "Height": 152,
+        "Color": "0x000000",
+        "FontName": "GoodVibesPro",
+
+        "FontSize": 76,
+        "FontWeight": 400,
+        "Value": " Grand "
+      },
+
+      {
+        "Left": 114,
+        "Top": 155,
+        "Width": 345,
+        "Height": 152,
+        "Color": "0x000000",
+        "FontName": "GoodVibesPro",
+
+        "FontSize": 76,
+        "FontWeight": 400,
+        "Value": " opening"
+      },
+
+      {
+        "Left": 125,
+        "Top": 281,
+        "Width": 236,
+        "Height": 70,
+        "Color": "0x000000",
+        "FontName": "Montserrat",
+        "TextAlignment": "Center",
+        "FontSize": 16,
+        "FontWeight": 400,
+        "Value": "You are invited to join us\n for the grand opening \nof Borcelle Bakery!"
+      },
+
+      {
+        "Left": 134,
+        "Top": 391,
+        "Width": 180,
+        "Height": 21,
+        "Color": "0x000000",
+        "FontName": "Montserrat-Medium",
+        "FontSize": 23,
+        "FontWeight": 500,
+        "Value": "April 7th 2022"
+      },
+
+      {
+        "Left": 158,
+        "Top": 461,
+        "Width": 208,
+        "Height": 21,
+        "Color": "0x000000",
+        "FontName": "Montserrat",
+        "FontSize": 14,
+        "FontWeight": 400,
+        "Value": "1300 Maple street,"
+      },
+
+      {
+        "Left": 138,
+        "Top": 487,
+        "Width": 208,
+        "Height": 21,
+        "Color": "0x000000",
+        "FontName": "Montserrat",
+        "FontSize": 14,
+        "FontWeight": 400,
+        "Value": "Eastwood business park"
+      },
+
+      {
+        "Left": 158,
+        "Top": 513,
+        "Width": 208,
+        "Height": 21,
+        "Color": "0x000000",
+        "FontName": "Montserrat",
+        "FontSize": 14,
+        "FontWeight": 400,
+        "Value": "Near the fountain"
+      }
+    ]
+  },
+
+  {
+    "FrontImagePath": "ms-appx:///Assets/Flyers/Front/009.png",
+    "PreviewImagePath": "ms-appx:///Assets/Flyers/Preview/009.png",
+    "GroupName": "Advertising",
+    "IsPremium": false,
+    "FrontTextTemplates": [
+
+      {
+        "Left": 29,
+        "Top": 132,
+        "Width": 103,
+        "Height": 44,
+        "Color": "0xffffff",
+        "FontName": "Montserrat-ExtraBold",
+        "FontSize": 40,
+        "Angle": -10,
+        "FontWeight": 800,
+
+        "Value": "30%"
+      },
+
+      {
+        "Left": 132,
+        "Top": 115.6,
+        "Width": 164,
+        "Height": 44,
+        "Color": "0xffffff",
+        "FontName": "Montserrat-Bold",
+        "FontSize": 26,
+        "FontWeight": 800,
+        "Angle": -10,
+
+        "Value": "DISCOUNT"
+      },
+
+      {
+        "Left": 75,
+        "Top": 187,
+        "Width": 258,
+        "Height": 69,
+        "Color": "0x000000",
+        "FontName": "Montserrat-ExtraBold",
+        "FontSize": 57,
+        "Angle": -10,
+        "FontWeight": 800,
+        "Value": "SPECIAL"
+      },
+
+      {
+        "Left": 89,
+        "Top": 298.5,
+        "Width": 234,
+        "Height": 80,
+        "Color": "0xffffff",
+        "FontName": "Montserrat-ExtraBold",
+        "FontSize": 66,
+        "Angle": -10,
+        "FontWeight": 800,
+
+        "Value": "OFFER"
+      },
+
+      {
+        "Left": 160,
+        "Top": 405.8,
+        "Width": 261,
+        "Height": 23,
+        "Color": "0xffffff",
+        "FontName": "Montserrat-Bold",
+        "FontSize": 19,
+        "Angle": -10,
+        "FontWeight": 700,
+
+        "Value": "TO ALL FLYER HOLDERS"
+      },
+
+      {
+        "Left": 21,
+        "Top": 519,
+        "Width": 154,
+        "Height": 34,
+        "Color": "0xffffff",
+        "FontName": "Montserrat-SemiBold",
+        "FontSize": 14,
+        "FontWeight": 600,
+
+        "Value": "We’re waiting you at:"
+      },
+
+      {
+        "Left": 22,
+        "Top": 547,
+        "Width": 138,
+        "Height": 21,
+        "Color": "0xffffff",
+        "FontName": "Montserrat-Bold",
+        "FontSize": 17,
+        "FontWeight": 700,
+
+        "Value": "50 ST AVENUE"
+      },
+
+      {
+        "Left": 22,
+        "Top": 576,
+        "Width": 183,
+        "Height": 21,
+        "Color": "0xffffff",
+        "FontName": "Montserrat-Bold",
+        "FontSize": 17,
+        "FontWeight": 700,
+
+        "Value": "NEW YORK, NY 10011"
+      }
+
+    ]
+  },
+
+  {
+    "FrontImagePath": "ms-appx:///Assets/Flyers/Front/010.png",
+    "PreviewImagePath": "ms-appx:///Assets/Flyers/Preview/010.png",
+    "GroupName": "Advertising",
+    "IsPremium": false,
+    "FrontTextTemplates": [
+
+      {
+        "Left": 91,
+        "Top": 110,
+        "Width": 295,
+        "Height": 111,
+        "Color": "0x000000",
+        "FontName": "CormorantGaramond-Bold",
+        "FontSize": 49,
+        "TextAlignment": "Center",
+
+        "FontWeight": 700,
+        "Value": "EXCLUSIVE\nCHANCE"
+      },
+
+      {
+        "Left": 93,
+        "Top": 287,
+        "Width": 341,
+        "Height": 46,
+        "Color": "0x000000",
+        "FontName": "Montserrat-Medium",
+        "TextAlignment": "Center",
+
+        "FontSize": 18,
+        "FontWeight": 500,
+
+        "Value": "Follow us and get a 40$\ndiscount for any procedure!"
+      },
+
+      {
+        "Left": 163,
+        "Top": 399,
+        "Width": 149,
+        "Height": 23,
+        "Color": "0x000000",
+        "FontName": "Montserrat-Medium",
+        "FontSize": 15,
+        "FontWeight": 500,
+
+        "Value": "162 ST AVENUE"
+      },
+
+      {
+        "Left": 138,
+        "Top": 426,
+        "Width": 200,
+        "Height": 23,
+        "Color": "0x000000",
+        "FontName": "Montserrat-Medium",
+        "FontSize": 15,
+        "FontWeight": 500,
+
+        "Value": "NEW YORK, NY 10011"
+      },
+
+      {
+        "Left": 131,
+        "Top": 522,
+        "Width": 62,
+        "Height": 24,
+        "Color": "0x000000",
+        "FontName": "Montserrat-SemiBold",
+        "FontSize": 12,
+        "FontWeight": 600,
+        "Value": "Website:"
+      },
+
+      {
+        "Left": 192,
+        "Top": 521,
+        "Width": 134,
+        "Height": 24,
+        "Color": "0x000000",
+        "FontName": "Montserrat",
+        "FontSize": 12,
+        "FontWeight": 400,
+        "Value": " www.ethanspa.com"
+      },
+
+      {
+        "Left": 142,
+        "Top": 548,
+        "Width": 75,
+        "Height": 23,
+        "Color": "0x000000",
+        "FontName": "Montserrat-SemiBold",
+        "FontSize": 12,
+        "FontWeight": 600,
+        "Value": "Instagram: "
+      },
+
+      {
+        "Left": 214,
+        "Top": 546,
+        "Width": 86,
+        "Height": 23,
+        "Color": "0x000000",
+        "FontName": "Montserrat",
+        "FontSize": 12,
+        "FontWeight": 400,
+        "Value": "ethanspa_ny"
+      }
+
+    ]
+  },
+
+  {
+    "FrontImagePath": "ms-appx:///Assets/Flyers/Front/011.png",
+    "PreviewImagePath": "ms-appx:///Assets/Flyers/Preview/011.png",
+    "GroupName": "Advertising",
+    "IsPremium": true,
+    "FrontTextTemplates": [
+
+      {
+        "Left": 40.5,
+        "Top": 102,
+        "Width": 422,
+        "Height": 92,
+        "Color": "0xffffff",
+        "FontName": "GoodTimingRg-Bold",
+        "FontSize": 38,
+        "TextAlignment": "Center",
+
+        "FontWeight": 400,
+        "Value": "DON’T MISS THE\nOPPORTUNITY!"
+      },
+
+      {
+        "Left": 60,
+        "Top": 265,
+        "Width": 356,
+        "Height": 61,
+        "Color": "0xffffff",
+        "TextAlignment": "Center",
+
+        "FontName": "FiraSansExtraCondensed-Medium",
+        "FontSize": 28,
+        "FontWeight": 500,
+
+        "Value": "Woodrock music festival\nunder the open sky"
+      },
+
+      {
+        "Left": 37,
+        "Top": 407,
+        "Width": 61,
+        "Height": 24,
+        "Color": "0xffffff",
+        "FontName": "GoodTimingRg-Bold",
+        "FontSize": 20,
+        "FontWeight": 400,
+
+        "Value": "DATE:"
+      },
+
+      {
+        "Left": 37.5,
+        "Top": 436,
+        "Width": 355,
+        "Height": 48,
+        "Color": "0xffffff",
+        "FontName": "GoodTimingRg-Bold",
+        "FontSize": 30,
+        "FontWeight": 400,
+
+        "Value": "AUGUST 14TH 2022"
+      },
+
+      {
+        "Left": 171.5,
+        "Top": 562,
+        "Width": 75,
+        "Height": 19,
+        "Color": "0xffffff",
+        "FontName": "GoodTimingRg-Bold",
+        "FontSize": 16,
+        "FontWeight": 400,
+
+        "Value": "TICKETS:"
+      },
+
+      {
+        "Left": 117.5,
+        "Top": 583,
+        "Width": 182,
+        "Height": 18,
+        "Color": "0xffffff",
+        "FontName": "GoodTimingRg-Bold",
+        "FontSize": 15,
+        "FontWeight": 400,
+
+        "Value": "www.woodrockfest.com"
+      }
+
+    ]
+  },
+
+  {
+    "FrontImagePath": "ms-appx:///Assets/Flyers/Front/012.png",
+    "PreviewImagePath": "ms-appx:///Assets/Flyers/Preview/012.png",
+    "GroupName": "Advertising",
+    "IsPremium": true,
+    "FrontTextTemplates": [
+
+      {
+        "Left": 39,
+        "Top": 128,
+        "Width": 155,
+        "Height": 65.5,
+        "Color": "0xFF4343",
+        "FontName": "Montserrat-SemiBold",
+        "FontSize": 53,
+        "FontWeight": 600,
+        "Value": "NEW"
+      },
+
+      {
+        "Left": 39,
+        "Top": 192,
+        "Width": 313,
+        "Height": 65.5,
+        "Color": "0xffffff",
+        "FontName": "Montserrat-SemiBold",
+        "FontSize": 53,
+        "FontWeight": 600,
+
+        "Value": "ARRIVALS!"
+      },
+
+      {
+        "Left": 42,
+        "Top": 308,
+        "Width": 329,
+        "Height": 41,
+        "Color": "0xffffff",
+        "FontName": "Montserrat-Bold",
+        "FontSize": 20,
+        "FontWeight": 700,
+
+        "Value": "TWO FOR THE PRICE OF ONE!"
+      },
+
+      {
+        "Left": 42,
+        "Top": 409,
+        "Width": 157,
+        "Height": 30,
+        "Color": "0xffffff",
+        "FontName": "Montserrat-Medium",
+        "FontSize": 17,
+        "FontWeight": 500,
+
+        "Value": "Old Red Hill RD"
+      },
+
+      {
+        "Left": 42,
+        "Top": 439,
+        "Width": 133,
+        "Height": 30,
+        "Color": "0xffffff",
+        "FontName": "Montserrat-Medium",
+        "FontSize": 17,
+        "FontWeight": 500,
+
+        "Value": "Bethel, NY"
+      },
+
+      {
+        "Left": 282,
+        "Top": 530,
+        "Width": 133,
+        "Height": 30,
+        "Color": "0xffffff",
+        "FontName": "Montserrat",
+        "FontSize": 14,
+        "FontWeight": 400,
+
+        "Value": "CONTACT US:"
+      },
+
+      {
+        "Left": 269,
+        "Top": 557,
+        "Width": 133,
+        "Height": 30,
+        "Color": "0xffffff",
+        "FontName": "Montserrat",
+        "FontSize": 14,
+        "FontWeight": 400,
+
+        "Value": "+123-456-7890"
+      }
+
+    ]
+  },
+
+  {
+    "FrontImagePath": "ms-appx:///Assets/Flyers/Front/013.png",
+    "PreviewImagePath": "ms-appx:///Assets/Flyers/Preview/013.png",
+    "GroupName": "Sale",
+    "IsPremium": false,
+    "FrontTextTemplates": [
+
+      {
+        "Left": 38,
+        "Top": 36,
+        "Width": 253,
+        "Height": 35,
+        "Color": "0x000000",
+        "FontName": "Yeseva One",
+        "FontSize": 21,
+        "FontWeight": 400,
+        "Value": "Friday, April 15th"
+      },
+
+      {
+        "Left": 38,
+        "Top": 138,
+        "Width": 253,
+        "Height": 145,
+        "Color": "0x000000",
+        "FontName": "Yeseva One",
+        "FontSize": 62,
+        "FontWeight": 400,
+
+        "Value": "SPRING\nSALE"
+      },
+
+      {
+        "Left": 38,
+        "Top": 346,
+        "Width": 179,
+        "Height": 23,
+        "Color": "0x000000",
+        "FontName": "Tinos",
+        "FontSize": 20,
+        "FontWeight": 400,
+
+        "Value": "The best price in town"
+      },
+
+      {
+        "Left": 38,
+        "Top": 383,
+        "Width": 102,
+        "Height": 50,
+        "Color": "0x000000",
+        "FontName": "Yeseva One",
+        "FontSize": 46,
+        "FontWeight": 400,
+
+        "Value": "50%"
+      },
+
+      {
+        "Left": 137,
+        "Top": 393,
+        "Width": 73,
+        "Height": 29,
+        "Color": "0x000000",
+        "FontName": "Yeseva One",
+        "FontSize": 35,
+        "FontWeight": 400,
+
+        "Value": "off"
+      },
+
+      {
+        "Left": 38,
+        "Top": 502,
+        "Width": 102,
+        "Height": 18,
+        "Color": "0x000000",
+        "FontName": "Tinos",
+        "FontSize": 16,
+        "FontWeight": 400,
+
+        "Value": "styleflyers.com "
+      },
+
+      {
+        "Left": 38,
+        "Top": 534,
+        "Width": 142,
+        "Height": 50,
+        "Color": "0x000000",
+        "FontName": "Tinos",
+        "FontSize": 16,
+        "FontWeight": 400,
+
+        "Value": "194 Timeclock Road,\n New York, 29384"
+      }
+
+    ]
+  },
+
+  {
+    "FrontImagePath": "ms-appx:///Assets/Flyers/Front/014.png",
+    "PreviewImagePath": "ms-appx:///Assets/Flyers/Preview/014.png",
+    "GroupName": "Sale",
+    "IsPremium": false,
+    "FrontTextTemplates": [
+
+      {
+        "Left": 32,
+        "Top": 47,
+        "Width": 462,
+        "Height": 123,
+        "Color": "0x332A2A",
+        "FontName": "Brusher-Regular",
+        "FontSize": 102,
+        "FontWeight": 400,
+        "Value": "Bake sale"
+      },
+
+      {
+        "Left": 120,
+        "Top": 206,
+        "Width": 280,
+        "Height": 42,
+        "Color": "0x352A2A",
+        "FontName": "Comfortaa-Bold",
+        "FontSize": 28,
+        "FontWeight": 700,
+
+        "Value": "11 - 17 April 2022"
+      },
+
+      {
+        "Left": 124,
+        "Top": 269,
+        "Width": 280,
+        "Height": 23,
+        "Color": "0x352A2A",
+        "FontName": "Comfortaa-Regular",
+        "FontSize": 24,
+        "FontWeight": 300,
+
+        "Value": "at 9 AM to 11 PM "
+      },
+
+      {
+        "Left": 109,
+        "Top": 346,
+        "Width": 280,
+        "Height": 23,
+        "Color": "0x352A2A",
+        "FontName": "Comfortaa-Bold",
+        "FontSize": 20,
+        "FontWeight": 700,
+
+        "Value": "Home & Office delivery "
+      },
+
+      {
+        "Left": 144,
+        "Top": 390,
+        "Width": 166,
+        "Height": 23,
+        "Color": "0x352A2A",
+        "FontName": "Comfortaa-Regular",
+        "FontSize": 18,
+        "FontWeight": 300,
+
+        "Value": "+(44) 5698 846512"
+      },
+
+      {
+        "Left": 156,
+        "Top": 449,
+        "Width": 166,
+        "Height": 23,
+        "Color": "0x352A2A",
+        "FontName": "Comfortaa-Regular",
+        "FontSize": 14,
+        "FontWeight": 300,
+
+        "Value": "www.bakeron.com"
+      }
+
+    ]
+  },
+
+  {
+    "FrontImagePath": "ms-appx:///Assets/Flyers/Front/015.png",
+    "PreviewImagePath": "ms-appx:///Assets/Flyers/Preview/015.png",
+    "GroupName": "Sale",
+    "IsPremium": true,
+    "FrontTextTemplates": [
+
+      {
+        "Left": 92.5,
+        "Top": 45,
+        "Width": 255,
+        "Height": 81,
+        "Color": "0x000000",
+        "FontName": "TTSouses-BlackItalic",
+        "FontSize": 55,
+        "FontWeight": 400,
+        "Value": "GARAGE"
+      },
+
+      {
+        "Left": 140,
+        "Top": 99,
+        "Width": 255,
+        "Height": 81,
+        "Color": "0x000000",
+        "FontName": "TTSouses-BlackItalic",
+        "FontSize": 55,
+        "FontWeight": 400,
+
+        "Value": "SALE"
+      },
+
+      {
+        "Left": 77,
+        "Top": 198,
+        "Width": 90,
+        "Height": 18,
+        "Color": "0x000000",
+        "FontName": "Ubuntu",
+        "FontSize": 16,
+        "FontWeight": 400,
+
+        "Value": "Calling all to"
+      },
+
+      {
+        "Left": 77.5,
+        "Top": 218,
+        "Width": 268,
+        "Height": 35,
+        "Color": "0x000000",
+        "FontName": "TTSouses-BlackItalic",
+        "FontSize": 29,
+        "FontWeight": 400,
+
+        "Value": "COME, SELL, SHOP"
+      },
+
+      {
+        "Left": 77.5,
+        "Top": 284,
+        "Width": 55,
+        "Height": 18,
+        "Color": "0x000000",
+        "FontName": "Ubuntu",
+        "FontSize": 16,
+        "FontWeight": 400,
+
+        "Value": "Where?"
+      },
+
+      {
+        "Left": 77,
+        "Top": 310,
+        "Width": 174,
+        "Height": 26,
+        "Color": "0x000000",
+        "FontName": "Ubuntu-Bold",
+        "FontSize": 21,
+        "FontWeight": 700,
+
+        "Value": "At Ludwig square"
+      },
+
+      {
+        "Left": 77.5,
+        "Top": 360,
+        "Width": 49,
+        "Height": 18,
+        "Color": "0x000000",
+        "FontName": "Ubuntu",
+        "FontSize": 16,
+        "FontWeight": 400,
+
+        "Value": "When?"
+      },
+
+      {
+        "Left": 77,
+        "Top": 387,
+        "Width": 211,
+        "Height": 72,
+        "Color": "0x000000",
+        "FontName": "Ubuntu-Bold",
+        "FontSize": 21,
+        "FontWeight": 700,
+
+        "Value": "Saturday, April 16th,\n10:00 - 18:00 PM "
+      },
+
+      {
+        "Left": 77.5,
+        "Top": 456,
+        "Width": 49,
+        "Height": 25,
+        "Color": "0x000000",
+        "FontName": "Ubuntu",
+        "FontSize": 17,
+        "FontWeight": 400,
+
+        "Value": "Table: "
+      },
+
+      {
+        "Left": 125,
+        "Top": 456,
+        "Width": 35,
+        "Height": 23,
+        "Color": "0x000000",
+        "FontName": "Ubuntu-Bold",
+        "FontSize": 18,
+        "FontWeight": 400,
+
+        "Value": "5$"
+      },
+
+      {
+        "Left": 77.5,
+        "Top": 487,
+        "Width": 49,
+        "Height": 25,
+        "Color": "0x000000",
+        "FontName": "Ubuntu",
+        "FontSize": 17,
+        "FontWeight": 400,
+
+        "Value": "Tents: "
+      },
+
+      {
+        "Left": 129,
+        "Top": 487,
+        "Width": 35,
+        "Height": 23,
+        "Color": "0x000000",
+        "FontName": "Ubuntu-Bold",
+        "FontSize": 18,
+        "FontWeight": 400,
+
+        "Value": "10$"
+      },
+
+      {
+        "Left": 278,
+        "Top": 527,
+        "Width": 84,
+        "Height": 13,
+        "Color": "0x000000",
+        "FontName": "Ubuntu",
+        "FontSize": 10,
+        "FontWeight": 400,
+
+        "Value": "Yes, count me in! "
+      },
+
+      {
+        "Left": 223,
+        "Top": 540,
+        "Width": 139,
+        "Height": 13,
+        "Color": "0x000000",
+        "FontName": "Ubuntu-Medium",
+        "FontSize": 10,
+        "FontWeight": 500,
+
+        "Value": "www.ludwiggaragesale.com "
+      },
+
+      {
+        "Left": 107,
+        "Top": 594,
+        "Width": 224,
+        "Height": 14,
+        "Color": "0xFFFFFF",
+        "FontName": "Ubuntu",
+        "FontSize": 11,
+        "FontWeight": 400,
+
+        "Value": "Call Mrs. Rosestone at +(44) 5698 846512"
+      }
+
+    ]
+  },
+
+  {
+    "FrontImagePath": "ms-appx:///Assets/Flyers/Front/016.png",
+    "PreviewImagePath": "ms-appx:///Assets/Flyers/Preview/016.png",
+    "GroupName": "Sale",
+    "IsPremium": true,
+    "FrontTextTemplates": [
+
+      {
+        "Left": 25,
+        "Top": 11,
+        "Width": 295,
+        "Height": 104,
+        "Color": "0xffffff",
+        "FontName": "CormorantInfant-Bold",
+        "FontSize": 55,
+        "FontWeight": 700,
+        "Value": "FASHION"
+      },
+
+      {
+        "Left": 25,
+        "Top": 60,
+        "Width": 295,
+        "Height": 104,
+        "Color": "0xffffff",
+        "FontName": "CormorantInfant-Bold",
+        "FontSize": 55,
+        "FontWeight": 700,
+        "Value": "SALE"
+      },
+
+      {
+        "Left": 25,
+        "Top": 136,
+        "Width": 178,
+        "Height": 58,
+        "Color": "0xffffff",
+        "FontName": "CormorantInfant-Bold",
+        "FontSize": 33,
+        "FontWeight": 700,
+
+        "Value": "22/04/2022 "
+      },
+
+      {
+        "Left": 25,
+        "Top": 214,
+        "Width": 168,
+        "Height": 40,
+        "Color": "0xffffff",
+        "FontName": "CormorantInfant-Bold",
+        "FontSize": 16,
+        "FontWeight": 700,
+
+        "Value": "FRIDAY, 22TH APRIL"
+      },
+
+      {
+        "Left": 25,
+        "Top": 229,
+        "Width": 168,
+        "Height": 40,
+        "Color": "0xFFDED8",
+        "FontName": "CormorantInfant-Bold",
+        "FontSize": 32,
+        "FontWeight": 700,
+
+        "Value": "50% OFF"
+      },
+
+      {
+        "Left": 25,
+        "Top": 297,
+        "Width": 199,
+        "Height": 40,
+        "Color": "0xffffff",
+        "FontName": "CormorantInfant-Bold",
+        "FontSize": 16,
+        "FontWeight": 700,
+
+        "Value": "SATURDAY, 23TH APRIL"
+      },
+
+      {
+        "Left": 25,
+        "Top": 314,
+        "Width": 168,
+        "Height": 40,
+        "Color": "0xFFDED8",
+        "FontName": "CormorantInfant-Bold",
+        "FontSize": 32,
+        "FontWeight": 700,
+
+        "Value": "60% OFF"
+      },
+
+      {
+        "Left": 25,
+        "Top": 385,
+        "Width": 199,
+        "Height": 40,
+        "Color": "0xffffff",
+        "FontName": "CormorantInfant-Bold",
+        "FontSize": 16,
+        "FontWeight": 700,
+
+        "Value": "SUNDAY, 24TH APRIL"
+      },
+
+      {
+        "Left": 25,
+        "Top": 402,
+        "Width": 168,
+        "Height": 40,
+        "Color": "0xFFDED8",
+        "FontName": "CormorantInfant-Bold",
+        "FontSize": 32,
+        "FontWeight": 700,
+
+        "Value": "70% OFF"
+      },
+
+      {
+        "Left": 25,
+        "Top": 476,
+        "Width": 248,
+        "Height": 40,
+        "Color": "0xffffff",
+        "FontName": "Tinos",
+        "FontSize": 14,
+        "FontWeight": 400,
+
+        "Value": "Take your friends and get additional\n discount (-5%)"
+      },
+
+      {
+        "Left": 25,
+        "Top": 532,
+        "Width": 240,
+        "Height": 20,
+        "Color": "0xffffff",
+        "FontName": "Tinos-Bold",
+        "FontSize": 17,
+        "FontWeight": 700,
+
+        "Value": "Starts at 10 AM / FASHIONista"
+      },
+
+      {
+        "Left": 25,
+        "Top": 549,
+        "Width": 213,
+        "Height": 36,
+        "Color": "0xffffff",
+        "FontName": "Tinos",
+        "FontSize": 15,
+        "FontWeight": 400,
+
+        "Value": "194 Timeclock Road, New York, 29384 "
+      },
+
+      {
+        "Left": 25,
+        "Top": 585,
+        "Width": 134,
+        "Height": 24,
+        "Color": "0xffffff",
+        "FontName": "Tinos",
+        "FontSize": 12,
+        "FontWeight": 400,
+
+        "Value": "www.fashionista.com"
+      }
+
+    ]
+  }
+
+]

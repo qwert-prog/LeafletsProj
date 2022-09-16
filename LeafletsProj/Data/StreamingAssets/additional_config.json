@@ -1,0 +1,6 @@
+{
+  "main_analytics_domain": "https://bh0.appfit.studio/receiver/api/v2/events",
+  "reserve_analytics_domain": "https://bh1.appfit.studio/receiver/api/v2/events",
+  "tech_version": 7,
+  "libraries": []
+}

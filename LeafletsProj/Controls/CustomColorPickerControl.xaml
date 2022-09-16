@@ -1,0 +1,80 @@
+﻿<UserControl
+    x:Class="LeafletsProj.Controls.CustomColorPickerControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converts="using:LeafletsProj.Converts"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:LeafletsProj.Controls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="300"
+    d:DesignWidth="400"
+    mc:Ignorable="d">
+
+    <UserControl.Resources>
+
+        <ResourceDictionary>
+            <converts:ColorToBrushConvert x:Key="ColorToBrushConvert" />
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Button
+                x:Name="CloseButton"
+                Width="15"
+                Height="15"
+                Margin="0,0,3,10"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Click="CloseButton_Click">
+
+                <Button.Template>
+                    <ControlTemplate TargetType="Button" />
+                </Button.Template>
+
+                <FontIcon
+                    FontFamily="Segoe MDL2 Assets"
+                    FontSize="12"
+                    Foreground="{StaticResource PagesIconForeground}"
+                    Glyph="&#xE711;" />
+            </Button>
+
+            <Viewbox Grid.Row="1" Width="250">
+
+                <ColorPicker
+                    ColorSpectrumShape="Ring"
+                    IsColorChannelTextInputVisible="False"
+                    IsHexInputVisible="False"
+                    Color="{x:Bind CurrentColor, Mode=TwoWay}" />
+            </Viewbox>
+
+            <!--  List with examples colors  -->
+            <GridView
+                x:Name="ExamplesColorGridView"
+                Grid.Row="2"
+                IsItemClickEnabled="True"
+                ItemClick="ExamplesColorGridView_ItemClick"
+                ItemsSource="{x:Bind _colors}"
+                SelectionMode="None">
+
+                <GridView.ItemTemplate>
+
+                    <DataTemplate>
+
+                        <Ellipse
+                            Width="25"
+                            Height="25"
+                            Fill="{Binding Color, Converter={StaticResource ColorToBrushConvert}}" />
+                    </DataTemplate>
+                </GridView.ItemTemplate>
+            </GridView>
+        </Grid>
+    </Grid>
+</UserControl>
